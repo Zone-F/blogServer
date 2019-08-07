@@ -1,0 +1,8 @@
+﻿#启动php程序(public目录下router.php)
+php -S 127.0.0.1:8181 router.php 
+
+#启动php程序,不被挂断，在后台运行
+nohup php -S localhost:8181 router.php &
+
+#thinkphp快捷命令 
+php think make:controller index/Test //在index下创建Test控制器
