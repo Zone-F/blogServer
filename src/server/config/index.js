@@ -1,7 +1,7 @@
 process.env.NODE_ENV = 'development';
 // console.log(process.env.NODE_ENV);
 let config = {
-  phpBaseUrl: 'http://localhost:8181/',
+  phpBaseUrl: 'http://127.0.0.1:8181/',
   port:''
 }
 if(process.env.NODE_ENV == 'development'){

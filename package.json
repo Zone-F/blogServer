@@ -4,7 +4,11 @@
   "description": "个人博客",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "apidoc": "apidoc -i src/server/controller/ -o apidoc"
+  },
+  "apidoc": {
+    "title": "Custom apiDoc browser title",
+    "url" : "https://127.0.0.1:3000"
   },
   "repository": {
     "type": "git",
