@@ -8,9 +8,10 @@ class Article {
 
   constructor(app) {}
   // 获取文章列表
-  getList() {    
+  getList() {
     const safeRequest = new SafeRequest("index/Article/article_list");
     return safeRequest.fetch({});
+    // 获取后台数据
   }
 }
 

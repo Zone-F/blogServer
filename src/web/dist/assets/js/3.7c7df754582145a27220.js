@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{17:function(t,e,n){"use strict";n.r(e);var s={},i=n(0),o=Object(i.a)(s,function(){var t=this.$createElement;return(this._self._c||t)("div",[this._v("footer")])},[],!1,null,"283647f5",null);e.default=o.exports}}]);
-//# sourceMappingURL=3.7c7df754582145a27220.js.map
