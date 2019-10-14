@@ -10,6 +10,6 @@ require('./db/connect')
 require("./controller/index")(app);
 
 
-app.listen(3000,()=>{
-  console.log('server is listen in 3000');
+app.listen(600,()=>{
+  console.log('server is listen in 600');
 });

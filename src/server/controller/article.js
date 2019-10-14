@@ -82,10 +82,11 @@ class ArticleController {
    * @apiSuccess {Number}  total 总条数
    * @apiSuccess {Number}  pageSize 每页条数
    */
-  getList(ctx, next) {
+  getList(ctx, next) {    
     return async (ctx, body) => {
       const article = new Article();
       const result = await article.getList(ctx.request.body);
+      // ctx.set("Content-Type", "application/json") 
       ctx.body = result;
     }
   }

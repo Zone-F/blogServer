@@ -114,7 +114,7 @@ class Article {
     }
   }
   //分页获取文章列表
-  async getList(params) {
+  async getList(params) {    
     let pageNum = params.pageNum || 1,
       pageSize = params.pageSize || 10;
     try {
@@ -123,7 +123,7 @@ class Article {
         .find()
         .skip((pageNum - 1) * pageSize)
         .limit(pageSize);
-      // console.log(res);
+      // console.log('res',res);
       return {
         state: 200,
         data: res,
